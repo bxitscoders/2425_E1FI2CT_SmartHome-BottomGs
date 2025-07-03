@@ -1,0 +1,18 @@
+PRAGMA encoding;
+BEGIN TRANSACTION;
+INSERT INTO tbl1(name, gehalt) VALUES('Max', 50000);
+INSERT INTO tbl1(name, gehalt) VALUES('Armin', 45000);
+INSERT INTO tbl1(name, gehalt) VALUES('Melanie', 55000);
+INSERT INTO tbl1(name, gehalt) VALUES('Klaus', 60000);
+INSERT INTO tbl1(name, gehalt) VALUES('Adam', 40000);
+INSERT INTO tbl1(name, gehalt) VALUES('Marie', 70000);
+INSERT INTO tbl1(name, gehalt) VALUES('Anja', 30000);
+INSERT INTO tbl1(name, gehalt) VALUES('Alexandra', 52000);
+INSERT INTO tbl1(name, gehalt) VALUES('Tim', 48000);
+INSERT INTO tbl1(name, gehalt) VALUES('Theo', 54000);
+INSERT INTO tbl1(name, gehalt) VALUES('Rita', 46000);
+INSERT INTO tbl1(name, gehalt) VALUES('Angelika', 650000);
+INSERT INTO tbl1(name, gehalt) VALUES('Andrea', 10000);
+INSERT INTO tbl1(name, gehalt) VALUES('Tanja', 65000);
+INSERT INTO tbl1(name, gehalt) VALUES('Alexander', 35000);
+COMMIT;

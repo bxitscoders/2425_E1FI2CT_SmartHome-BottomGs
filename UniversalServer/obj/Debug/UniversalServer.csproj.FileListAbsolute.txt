@@ -1,0 +1,4 @@
+C:\Users\gioele.palese\Documents\GitHub\2425_E1FI2CT_SmartHome-BottomGs\UniversalServer\obj\Debug\UniversalServer.csproj.AssemblyReference.cache
+C:\Users\gioele.palese\Documents\GitHub\2425_E1FI2CT_SmartHome-BottomGs\UniversalServer\obj\Debug\App.g.cs
+C:\Users\gioele.palese\Documents\GitHub\2425_E1FI2CT_SmartHome-BottomGs\UniversalServer\obj\Debug\UniversalServer_Content.g.cs
+C:\Users\gioele.palese\Documents\GitHub\2425_E1FI2CT_SmartHome-BottomGs\UniversalServer\obj\Debug\UniversalServer_MarkupCompile.cache

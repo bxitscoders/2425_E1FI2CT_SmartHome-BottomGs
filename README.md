@@ -1,1 +1,0 @@
-# 2425_E1FI2CT_SmartHome-BottomGs

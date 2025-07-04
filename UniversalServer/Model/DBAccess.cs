@@ -49,8 +49,8 @@ namespace UniversalServer.Model
                 )
                 VALUES (
                     {tv.Value.ToString().Replace(',','.')},
-                    {hv.Value},
-                    {pv.Value},
+                    {hv.Value.ToString().Replace(',', '.')},
+                    {pv.Value.ToString().Replace(',', '.')},
                     '{dt.ToString("yyyy-MM-dd HH:mm:ss")}',
                     '{ip}'
                 );

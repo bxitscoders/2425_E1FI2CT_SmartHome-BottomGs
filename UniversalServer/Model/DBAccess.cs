@@ -39,7 +39,27 @@ namespace UniversalServer.Model
 
         public void InsertData(TempValue tv, HumidValue hv, PressureValue pv, DateTime dt, string ip)
         {
-            
+            string insertCmd = $@"
+                INSERT INTO tbl_werte (
+                    temperature,
+                    humidity,
+                    pressure,
+                    date,
+                    ipadress
+                )
+                VALUES (
+                    {tv.Value.ToString().Replace(',','.')},
+                    {hv.Value},
+                    {pv.Value},
+                    '{dt.ToString("yyyy-MM-dd HH:mm:ss")}',
+                    '{ip}'
+                );
+            ";
+
+            SQLiteCommand sqlcmd = _myConnection.CreateCommand();
+            sqlcmd.CommandText = insertCmd;
+
+            int rowsInserted = sqlcmd.ExecuteNonQuery();
 
         }
     }

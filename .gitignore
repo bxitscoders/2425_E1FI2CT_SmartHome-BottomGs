@@ -1,2 +1,6 @@
+# Ignore the bin and obj folder
 */bin/*
 */obj/*
+
+# Ignore the hidden .vs folder, since it won't let me commit it anyway.
+.vs
